@@ -1,0 +1,39 @@
+.PopUp {
+    position: fixed;
+    left: 40%;
+    top: 10%;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+}
+label{
+    position: relative;
+    right:130px;
+}
+.inputPopup {
+    width: 300px;
+}
+
+
+.login{
+    margin-right: 180px;
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.close {
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }

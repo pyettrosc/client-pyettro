@@ -1,0 +1,13 @@
+.formRegistro{
+    display:flex;
+    flex-direction: column;
+}
+.labelRegistro{
+   padding-left: 130px;
+}
+.inputRegistro{
+   width: 500px;
+}
+.buttonRegistro{
+    width: 200px;
+}
