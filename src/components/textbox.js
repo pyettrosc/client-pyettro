@@ -16,10 +16,10 @@ function TextBox(){
     };
     return(
         <form onSubmit={handleSubmit}>
-        <textarea className="textbox" placeholder="Digite aqui" cols={30} rows={5} value={textValue} onChange={handleChange}>
+        <textarea className="textbox" placeholder="Digite aqui" cols={30} rows={1} value={textValue} onChange={handleChange}>
         </textarea>
         <p></p>
-        <button type="submit"> Enviar</button>
+        <button type="submit">Enviar</button>
         </form>
     );
 }

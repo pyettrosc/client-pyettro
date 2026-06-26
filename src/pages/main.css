@@ -16,14 +16,26 @@
 /* Posicionando os elementos */
 .header { 
   grid-area: header; 
-  background-color: #f1c40f; 
+  background-color: #ffffff; 
   display: flex;
   justify-content: end;
   align-items: center;
   gap:15px;
   padding: 15px;
 }
-.sidebar { grid-area: sidebar; background-color: #3498db; }
+.sidebar { grid-area: sidebar; background-color: #333333; color: #ffffff; }
+.sidebar img {
+  width: 200px;
+}
+.invisivel{
+  height: 300px;
+}
+.meusicones img{
+  height: 30px;
+}
+.meusicones{
+  display: flex;
+}
 .content { 
   grid-area: main; 
   background-color: #ecf0f1; 
